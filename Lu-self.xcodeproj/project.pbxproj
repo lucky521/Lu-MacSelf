@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E71E50D1D3FBD15006ECCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71E50C1D3FBD15006ECCFE /* AppDelegate.swift */; };
+		9E71E50F1D3FBD15006ECCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71E50E1D3FBD15006ECCFE /* ViewController.swift */; };
+		9E71E5111D3FBD15006ECCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E71E5101D3FBD15006ECCFE /* Assets.xcassets */; };
+		9E71E5141D3FBD15006ECCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E71E5121D3FBD15006ECCFE /* Main.storyboard */; };
+		9E71E51F1D3FBD15006ECCFE /* Lu_selfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71E51E1D3FBD15006ECCFE /* Lu_selfTests.swift */; };
+		9E71E52A1D3FBD15006ECCFE /* Lu_selfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71E5291D3FBD15006ECCFE /* Lu_selfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E71E51B1D3FBD15006ECCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E71E5011D3FBD15006ECCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E71E5081D3FBD15006ECCFE;
+			remoteInfo = "Lu-self";
+		};
+		9E71E5261D3FBD15006ECCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E71E5011D3FBD15006ECCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E71E5081D3FBD15006ECCFE;
+			remoteInfo = "Lu-self";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E71E5091D3FBD15006ECCFE /* Lu-self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lu-self.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E71E50C1D3FBD15006ECCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E71E50E1D3FBD15006ECCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E71E5101D3FBD15006ECCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E71E5131D3FBD15006ECCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E71E5151D3FBD15006ECCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E71E51A1D3FBD15006ECCFE /* Lu-selfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lu-selfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E71E51E1D3FBD15006ECCFE /* Lu_selfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lu_selfTests.swift; sourceTree = "<group>"; };
+		9E71E5201D3FBD15006ECCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E71E5251D3FBD15006ECCFE /* Lu-selfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lu-selfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E71E5291D3FBD15006ECCFE /* Lu_selfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lu_selfUITests.swift; sourceTree = "<group>"; };
+		9E71E52B1D3FBD15006ECCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E71E5061D3FBD15006ECCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5171D3FBD15006ECCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5221D3FBD15006ECCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E71E5001D3FBD15006ECCFE = {
+			isa = PBXGroup;
+			children = (
+				9E71E50B1D3FBD15006ECCFE /* Lu-self */,
+				9E71E51D1D3FBD15006ECCFE /* Lu-selfTests */,
+				9E71E5281D3FBD15006ECCFE /* Lu-selfUITests */,
+				9E71E50A1D3FBD15006ECCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E71E50A1D3FBD15006ECCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E71E5091D3FBD15006ECCFE /* Lu-self.app */,
+				9E71E51A1D3FBD15006ECCFE /* Lu-selfTests.xctest */,
+				9E71E5251D3FBD15006ECCFE /* Lu-selfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E71E50B1D3FBD15006ECCFE /* Lu-self */ = {
+			isa = PBXGroup;
+			children = (
+				9E71E50C1D3FBD15006ECCFE /* AppDelegate.swift */,
+				9E71E50E1D3FBD15006ECCFE /* ViewController.swift */,
+				9E71E5101D3FBD15006ECCFE /* Assets.xcassets */,
+				9E71E5121D3FBD15006ECCFE /* Main.storyboard */,
+				9E71E5151D3FBD15006ECCFE /* Info.plist */,
+			);
+			path = "Lu-self";
+			sourceTree = "<group>";
+		};
+		9E71E51D1D3FBD15006ECCFE /* Lu-selfTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E71E51E1D3FBD15006ECCFE /* Lu_selfTests.swift */,
+				9E71E5201D3FBD15006ECCFE /* Info.plist */,
+			);
+			path = "Lu-selfTests";
+			sourceTree = "<group>";
+		};
+		9E71E5281D3FBD15006ECCFE /* Lu-selfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E71E5291D3FBD15006ECCFE /* Lu_selfUITests.swift */,
+				9E71E52B1D3FBD15006ECCFE /* Info.plist */,
+			);
+			path = "Lu-selfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E71E5081D3FBD15006ECCFE /* Lu-self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E71E52E1D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-self" */;
+			buildPhases = (
+				9E71E5051D3FBD15006ECCFE /* Sources */,
+				9E71E5061D3FBD15006ECCFE /* Frameworks */,
+				9E71E5071D3FBD15006ECCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lu-self";
+			productName = "Lu-self";
+			productReference = 9E71E5091D3FBD15006ECCFE /* Lu-self.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E71E5191D3FBD15006ECCFE /* Lu-selfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E71E5311D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-selfTests" */;
+			buildPhases = (
+				9E71E5161D3FBD15006ECCFE /* Sources */,
+				9E71E5171D3FBD15006ECCFE /* Frameworks */,
+				9E71E5181D3FBD15006ECCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E71E51C1D3FBD15006ECCFE /* PBXTargetDependency */,
+			);
+			name = "Lu-selfTests";
+			productName = "Lu-selfTests";
+			productReference = 9E71E51A1D3FBD15006ECCFE /* Lu-selfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E71E5241D3FBD15006ECCFE /* Lu-selfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E71E5341D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-selfUITests" */;
+			buildPhases = (
+				9E71E5211D3FBD15006ECCFE /* Sources */,
+				9E71E5221D3FBD15006ECCFE /* Frameworks */,
+				9E71E5231D3FBD15006ECCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E71E5271D3FBD15006ECCFE /* PBXTargetDependency */,
+			);
+			name = "Lu-selfUITests";
+			productName = "Lu-selfUITests";
+			productReference = 9E71E5251D3FBD15006ECCFE /* Lu-selfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E71E5011D3FBD15006ECCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "刘露";
+				TargetAttributes = {
+					9E71E5081D3FBD15006ECCFE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9E71E5191D3FBD15006ECCFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9E71E5081D3FBD15006ECCFE;
+					};
+					9E71E5241D3FBD15006ECCFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9E71E5081D3FBD15006ECCFE;
+					};
+				};
+			};
+			buildConfigurationList = 9E71E5041D3FBD15006ECCFE /* Build configuration list for PBXProject "Lu-self" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E71E5001D3FBD15006ECCFE;
+			productRefGroup = 9E71E50A1D3FBD15006ECCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E71E5081D3FBD15006ECCFE /* Lu-self */,
+				9E71E5191D3FBD15006ECCFE /* Lu-selfTests */,
+				9E71E5241D3FBD15006ECCFE /* Lu-selfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E71E5071D3FBD15006ECCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E71E5111D3FBD15006ECCFE /* Assets.xcassets in Resources */,
+				9E71E5141D3FBD15006ECCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5181D3FBD15006ECCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5231D3FBD15006ECCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E71E5051D3FBD15006ECCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E71E50F1D3FBD15006ECCFE /* ViewController.swift in Sources */,
+				9E71E50D1D3FBD15006ECCFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5161D3FBD15006ECCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E71E51F1D3FBD15006ECCFE /* Lu_selfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E71E5211D3FBD15006ECCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E71E52A1D3FBD15006ECCFE /* Lu_selfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E71E51C1D3FBD15006ECCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E71E5081D3FBD15006ECCFE /* Lu-self */;
+			targetProxy = 9E71E51B1D3FBD15006ECCFE /* PBXContainerItemProxy */;
+		};
+		9E71E5271D3FBD15006ECCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E71E5081D3FBD15006ECCFE /* Lu-self */;
+			targetProxy = 9E71E5261D3FBD15006ECCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E71E5121D3FBD15006ECCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E71E5131D3FBD15006ECCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E71E52C1D3FBD15006ECCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E71E52D1D3FBD15006ECCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E71E52F1D3FBD15006ECCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-self/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E71E5301D3FBD15006ECCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-self/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E71E5321D3FBD15006ECCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-selfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-selfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lu-self.app/Contents/MacOS/Lu-self";
+			};
+			name = Debug;
+		};
+		9E71E5331D3FBD15006ECCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-selfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-selfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lu-self.app/Contents/MacOS/Lu-self";
+			};
+			name = Release;
+		};
+		9E71E5351D3FBD15006ECCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-selfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-selfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lu-self";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9E71E5361D3FBD15006ECCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lu-selfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulu.Lu-selfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lu-self";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E71E5041D3FBD15006ECCFE /* Build configuration list for PBXProject "Lu-self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E71E52C1D3FBD15006ECCFE /* Debug */,
+				9E71E52D1D3FBD15006ECCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E71E52E1D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E71E52F1D3FBD15006ECCFE /* Debug */,
+				9E71E5301D3FBD15006ECCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E71E5311D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-selfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E71E5321D3FBD15006ECCFE /* Debug */,
+				9E71E5331D3FBD15006ECCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E71E5341D3FBD15006ECCFE /* Build configuration list for PBXNativeTarget "Lu-selfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E71E5351D3FBD15006ECCFE /* Debug */,
+				9E71E5361D3FBD15006ECCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E71E5011D3FBD15006ECCFE /* Project object */;
+}
